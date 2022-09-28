@@ -25,6 +25,7 @@ public class Ejbasico5 {
 		//Mostramos el resultado
 		System.out.println("Su nota final es de un " + (int)ultimo);
 		System.out.println("Su nota de expediente es de un " + ultimo);
+		sc.close();
 	}
 
 }

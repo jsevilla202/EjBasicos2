@@ -27,6 +27,7 @@ public class Ejbasico4 {
 		calle = !lluvia&&tarea||biblioteca;
 		//Mostramos el resultado
 		System.out.print(calle);
+		sc.close();
 		
 
 	}

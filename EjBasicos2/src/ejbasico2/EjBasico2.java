@@ -15,6 +15,7 @@ public class EjBasico2 {
 		edad = sc.nextInt();
 		//Si la edad es mayor o igual a 18 mostrara "True", en otro caso "False"
 		System.out.print(edad>=18);
+		sc.close();
 
 	}
 

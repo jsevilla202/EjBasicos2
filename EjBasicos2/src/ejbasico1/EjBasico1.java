@@ -23,6 +23,7 @@ public class EjBasico1 {
 		beneficios = manzanas*manzanaprecio+peras*peraprecio;
 		//Mostramos el resultado
 		System.out.print("Tendra un beneficio total de " + beneficios+ "€");
+		sc.close();
 	}
 
 }

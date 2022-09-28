@@ -16,6 +16,7 @@ public class EjBasico3 {
 		//Si es numero tiene resto 0 será par, por lo que dara como respuesta "True"
 		//En otro caso "False"
 		System.out.print(numero%2==0);
+		sc.close();
 	}
 
 }

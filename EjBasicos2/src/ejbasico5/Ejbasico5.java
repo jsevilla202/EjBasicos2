@@ -22,8 +22,10 @@ public class Ejbasico5 {
 		System.out.print("Cual fue su nota del tercer trimestre?: ");
 		//Captamos la respuesta y la guardamos en una variable
 		tercero = sc.nextInt();
+		//Usamos (double) para sacar los decimales
 		expediente = (double)(primer+segundo+tercero)/3;
 		//Mostramos el resultado
+		//Usamos (int) para truncar el resultado y que salga entero
 		System.out.println("Su nota final es de un " + (int)expediente);
 		System.out.print("Su nota de expediente es de un ");
 		//Redondeamos a los 3 digitos

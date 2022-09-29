@@ -8,7 +8,8 @@ public class Ejbasico5 {
 		//Creamos el Scanner
 		Scanner sc = new Scanner(System.in);
 		//Nombramos las variables
-		float primer,segundo, tercero, ultimo;
+		int primer,segundo, tercero;
+		double expediente;
 		//Preguntamos por la nota del primer trimestre al usuario
 		System.out.print("Cual fue su nota del primer trimestre?: ");
 		//Captamos la respuesta y la guardamos en una variable
@@ -21,12 +22,12 @@ public class Ejbasico5 {
 		System.out.print("Cual fue su nota del tercer trimestre?: ");
 		//Captamos la respuesta y la guardamos en una variable
 		tercero = sc.nextInt();
-		ultimo = (primer+segundo+tercero)/3;
+		expediente = (double)(primer+segundo+tercero)/3;
 		//Mostramos el resultado
-		System.out.println("Su nota final es de un " + (int)ultimo);
+		System.out.println("Su nota final es de un " + (int)expediente);
 		System.out.print("Su nota de expediente es de un ");
 		//Redondeamos a los 3 digitos
-		System.out.format("%.3f", ultimo);
+		System.out.format("%.3f", expediente);
 		sc.close();
 	}
 
